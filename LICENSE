@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Drill 1-Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Basic Calculator</h1>
+        <p>Click the button to get the product of 8 and 9</p>
+        <p id="answer">The answer is: </p>
+
+
+        <button type="button" class="btn btn-warning"  onclick="
+                let var1=8; 
+                let var2=9;
+                let prod=8*9; 
+                document.getElementById('answer').innerHTML=
+                'The answer is:' + prod ;">Calculate</button>
+        </button>
+        
+        <button type="button" class="btn btn-success">Refresh</button>
+
+    </div>
+
+</body>
+</html>
+
